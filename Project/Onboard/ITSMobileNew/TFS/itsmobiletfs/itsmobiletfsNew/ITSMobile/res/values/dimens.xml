@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="choose_template_group_header_paddiing_left">15px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_verify_password_width">200dp</dimen>
+    <dimen name="dialog_verify_password_height">100dp</dimen>
+    <dimen name="fixed_view">0dp</dimen>
+    <dimen name="grid_column_width">150dp</dimen>
+
+    <dimen name="text_font_large">18sp</dimen>
+
+    <dimen name="drawer_width">270dp</dimen>
+</resources>

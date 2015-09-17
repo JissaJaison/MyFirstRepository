@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    >
+<ListView
+    android:id="@+id/list"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:choiceMode="singleChoice"
+    android:listSelector="@drawable/nd_list_selector"
+    android:background="@color/gmail_menu_background_unselected"
+    android:divider="@color/list_divider"
+    android:dividerHeight="1dp" />
+
+    <include layout="@layout/logout_view" />
+</RelativeLayout>

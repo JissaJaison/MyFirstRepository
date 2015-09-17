@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/issue_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pbProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:background="#444444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/llFiltersLayout">
+
+        <TextView
+            android:id="@+id/tvTopFilter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvResetFilters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear filters"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layoutAnimation="@anim/item_anim"
+            android:id="@+id/list"
+            android:drawSelectorOnTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+</LinearLayout>

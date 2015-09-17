@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="action_login">Login</string>
+    <string name="prompt_password">Tap to enter</string>
+    <string name="prompt_username">Tap to enter</string>
+    <string name="error_incorrect_password">The password is incorrect</string>
+    <string name="error_user_not_found">The user is not found</string>
+    <string name="error_field_required">This field is required</string>
+
+</resources>

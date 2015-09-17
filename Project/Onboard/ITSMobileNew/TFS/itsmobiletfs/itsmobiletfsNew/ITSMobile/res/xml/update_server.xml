@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:id="@+id/toggle_button1"
+        android:key="autoSynchronization"
+        android:switchTextOff="@string/swith_text_off"
+        android:switchTextOn="@string/swith_text_on"
+        android:title="@string/auto_synchronization_title" >
+    </SwitchPreference>
+
+    <ListPreference
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="period"
+        android:defaultValue="1800000"
+        android:summary="@string/list1_summary"
+        android:title="@string/list1_title" >
+    </ListPreference>
+
+    <Preference
+        android:key="manualSynchronization"
+        android:title="@string/manual_synchronization_title" >
+    </Preference>
+    <Preference
+        android:key="BackupDatabase"
+        android:title="@string/Backup_Database_title" >
+    </Preference>
+    <Preference
+        android:key="EnableLogging"
+        android:title="@string/Enable_Logging_title" >
+    </Preference>
+        <Preference
+        android:key="HardSynchronization"
+        android:title="@string/hard_synchronization_title" >
+    </Preference>
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item
+        android:id="@+id/item_play"
+        android:icon="@drawable/ic_start"
+        android:showAsAction="always"
+        android:visible="false"
+        android:title="Play">
+    </item>
+    <item
+        android:id="@+id/item_star"
+        android:icon="@drawable/ic_star_actionbar"
+        android:showAsAction="always"
+        android:title="Favorite">
+    </item>
+    <item
+        android:id="@+id/item_no_action"
+        android:icon="@drawable/ic_overflow"
+        android:showAsAction="always"
+        android:visible="false"
+        android:title="No action">
+    </item>
+    <group
+        android:id="@+id/item_overflow"
+        android:visible="true">
+    </group>
+</menu>

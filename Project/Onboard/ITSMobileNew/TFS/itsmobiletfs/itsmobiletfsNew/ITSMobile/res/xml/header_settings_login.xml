@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="com.onbts.ITSMobile.UI.fragments.preference.ConfigurationServerFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:summary="@string/options_server_summary"
+        android:title="@string/options_server_title" >
+    </header>
+    <header
+        android:fragment="com.onbts.ITSMobile.UI.fragments.preference.UpdateServerFragment"
+        android:icon="@android:drawable/ic_menu_help"
+        android:summary="@string/options_refresh_summary"
+        android:title="@string/options_refresh_title" >
+    </header>
+
+</preference-headers>

@@ -1,0 +1,9 @@
+/bin/
+/gen/
+/.gradle/
+/.idea/
+/.metadata/
+/.settings/
+*.apk
+/build/
+/gradle/

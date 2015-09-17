@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IssuTrax Mobile for Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">IssuTrax Mobile</string>
+    <string name="main_no_items">No items</string>
+    <string name="title_activity_choose_template">Choose Inspection</string>
+    <string name="title_activity_startscreen">IssuTrax Mobile</string>
+    <string name="title_activity_activeinspections">Incomplete Inspections</string>
+    <string name="menu_reset_db">Reset Db</string>
+    <string name="menu_sync"></string>
+    <string name="menu_sync_details"></string>
+    <string name="tvw_sync_details"></string>
+    <string name="title_activity_sync_config">Settings</string>
+    <string name="menu_settings_save">Save</string>
+    <string name="menu_settings_cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_image_gallery">Attachments</string>
+
+    <string name="nav_drawer_left_user_ass">Assigned to me</string>
+    <string name="nav_drawer_left_user_create">Created by me</string>
+    <string name="nav_drawer_left_user_fav">Starred</string>
+    <string name="nav_drawer_left_dep_create">Created by my departments</string>
+    <string name="nav_drawer_left_dep_ass">Assigned to my departments</string>
+
+
+    <string-array name="nav_drawer_left_titles">
+        <item>Assigned to me</item>
+        <item>Assigned to my departments</item>
+        <item>Created by me</item>
+        <item>Created by my departments</item>
+        <item>Starred</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="nav_drawer_right_titles">
+        <item>Priority</item>
+        <item>Status</item>
+        <item>Type</item>
+        <item>Section</item>
+        <item>Deck</item>
+        <item>Department</item>
+        <item>Fire zone</item>
+        <item>Location group</item>
+        <item>Alert</item>
+
+    </string-array>
+    <string-array name="spinner_statuses">
+        <item>Off</item>
+        <item>New</item>
+        <item>Pending Guest Contact</item>
+        <item>Ready to Invoice</item>
+        <item>Waiting for parts</item>
+        <item>Parts Ready For Pick up</item>
+        <item>Discrepancy</item>
+        <item>Guest Interaction</item>
+        <item>Pending Cleanup</item>
+        <item>Review &amp; Approval</item>
+        <item>Assigned</item>
+        <item>In Progress</item>
+        <item>Pending Close</item>
+        <item>Closed</item>
+        <item>Delayed</item>
+        <item>Scheduled</item>
+    </string-array>
+    <string-array name="spinner_sections">
+        <item>Off</item>
+        <item>AFT</item>
+        <item>FWD</item>
+        <item>MID</item>
+    </string-array>
+    <string-array name="spinner_decks">
+        <item>Off</item>
+        <item>Deck B</item>
+        <item>Promenade</item>
+        <item>Observation</item>
+        <item>UpperLido</item>
+        <item>Deck C</item>
+        <item>Lido</item>
+        <item>Elevators</item>
+        <item>Deck A</item>
+        <item>UPromenade</item>
+        <item>Rotterdam</item>
+        <item>LPromenade</item>
+        <item>Navigation</item>
+        <item>UVeranda</item>
+        <item>Verandah</item>
+    </string-array>
+    <string-array name="spinner_departments">
+        <item>Off</item>
+        <item>Hotel - Guest Relations</item>
+        <item>Technical  - Special Service Technician</item>
+        <item>Hotel - Hotel</item>
+        <item>Hotel - Beverage</item>
+        <item>Hotel - Entertainment</item>
+        <item>Hotel - Shore Excursions</item>
+        <item>Hotel - Port &amp; Shopping Ambassador</item>
+        <item>Hotel - Art Concessionaire</item>
+        <item>Hotel - Onboard Marketing Manager</item>
+        <item>Hotel - Administration</item>
+        <item>Technical - Facilities Technician</item>
+        <item>Technical - Elec Tech</item>
+        <item>Ships Staff</item>
+        <item>Technical - Machinist</item>
+        <item>Hotel - Culinary</item>
+        <item>Technical - Upholsterer</item>
+        <item>Hotel - Broadcast</item>
+        <item>Nautical - Nautical</item>
+        <item>Hotel - Internet Concessionaire</item>
+        <item>Hotel - Photo Concessionaire</item>
+        <item>Hotel - Shop Concessionaire</item>
+        <item>Hotel - Spa Concessionaire</item>
+        <item>System Administrator</item>
+        <item>Nautical - Locksmith</item>
+        <item>Nautical - Security</item>
+        <item>Corporate Users</item>
+        <item>Hotel - Housekeeping</item>
+        <item>Hotel - Casino Concessionaire</item>
+        <item>Technical - Lampoonist</item>
+        <item>Technical - Plumber</item>
+        <item>Technical - Ref Tech</item>
+        <item>Hotel - I.T</item>
+        <item>Technical - Electrician</item>
+        <item>Technical - Assistant Facilities</item>
+        <item>Nautical - Bosun</item>
+        <item>Technical - Carpenter</item>
+    </string-array>
+    <string-array name="spinner_sort">
+        <item>Date</item>
+        <item>Location</item>
+        <item>Issue ID</item>
+        <item>Priority</item>
+    </string-array>
+
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">CANCEL</string>
+
+    <string name="options_server_title">Configuration server</string>
+    <string name="options_server_summary">Configuration server</string>
+    <string name="options_refresh_title">Update settings</string>
+    <string name="options_refresh_summary">Update settings</string>
+    <string name="url_server_title">URL Server</string>
+    <string name="edittext1_summary">URL</string>
+    <string name="auto_synchronization_title">Automatic synchronization</string>
+    <string name="swith_text_on">On</string>
+    <string name="swith_text_off">Off</string>
+    <string name="list1_title">Synchronization period</string>
+    <string name="list1_summary">time</string>
+    <string name="manual_synchronization_title">Last update time</string>
+    <string name="Backup_Database_title">Backup Database</string>
+    <string name="Enable_Logging_title">Enable Session Log</string>
+    <string name="hard_synchronization_title">Hard synchronization</string>
+    <string name="hard_load_message">This operation will remove the database and reload all current data from the server.</string>
+    <string name="warning">Warning!</string>
+
+
+    <string-array name="entries">
+        <item>30 second</item>
+        <item>1 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>30000</item>
+        <item>60000</item>
+        <item>600000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+</resources>

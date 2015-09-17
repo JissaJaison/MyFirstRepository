@@ -1,0 +1,4444 @@
+#
+# generated on 2014/11/10 10:37:34
+#
+# --table-start--
+dataClass=ITSMobile.Actions
+tableName=Actions
+# --table-fields-start--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionCode
+columnName=ActionCode
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionDesc
+columnName=ActionDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionImage
+columnName=ActionImage
+# --field-end--
+# --field-start--
+fieldName=DisplayOrder
+columnName=DisplayOrder
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ParentID
+columnName=ParentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PreviousActionID
+columnName=PreviousActionID
+# --field-end--
+# --field-start--
+fieldName=NextActionID
+columnName=NextActionID
+# --field-end--
+# --field-start--
+fieldName=VisibleToUserGroupThatExecutedPreviousAction
+columnName=VisibleToUserGroupThatExecutedPreviousAction
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=VisibleToCreatorDepartment
+columnName=VisibleToCreatorDepartment
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=VisibleToAssignee
+columnName=VisibleToAssignee
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SetsOtherActionsToNotVisible
+columnName=SetsOtherActionsToNotVisible
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=VisibleOnITSMobile
+columnName=VisibleOnITSMobile
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=KeepAssignee
+columnName=KeepAssignee
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StopTimer
+columnName=StopTimer
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StartTimer
+columnName=StartTimer
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=InternalToSystem
+columnName=InternalToSystem
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequiresNotes
+columnName=RequiresNotes
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=HoursWorkedEntry
+columnName=HoursWorkedEntry
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayHelp
+columnName=DisplayHelp
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=HelpPage
+columnName=HelpPage
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SetIssueAsResolved
+columnName=SetIssueAsResolved
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ChangeDepartmentToAssign
+columnName=ChangeDepartmentToAssign
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionsByStatus
+tableName=ActionsByStatus
+# --table-fields-start--
+# --field-start--
+fieldName=ActionStatusID
+columnName=ActionStatusID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StatusID
+columnName=StatusID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionVisibilityByDepartment
+tableName=ActionVisibilityByDepartment
+# --table-fields-start--
+# --field-start--
+fieldName=ActionDepartmentID
+columnName=ActionDepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=VisibleOnlyIfCurrentlyAssigned
+columnName=VisibleOnlyIfCurrentlyAssigned
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionVisibilityByGeneralGroup
+tableName=ActionVisibilityByGeneralGroup
+# --table-fields-start--
+# --field-start--
+fieldName=ActionVisibilityByGeneralGroupID
+columnName=ActionVisibilityByGeneralGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GeneralGroupID
+columnName=GeneralGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionVisibilityByUser
+tableName=ActionVisibilityByUser
+# --table-fields-start--
+# --field-start--
+fieldName=ActionUserID
+columnName=ActionUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionWorkflows
+tableName=ActionWorkflows
+# --table-fields-start--
+# --field-start--
+fieldName=ActionWorkflowID
+columnName=ActionWorkflowID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CurrentStatusID
+columnName=CurrentStatusID
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequiresLocationOwnerAction
+columnName=RequiresLocationOwnerAction
+# --field-end--
+# --field-start--
+fieldName=Billable
+columnName=Billable
+# --field-end--
+# --field-start--
+fieldName=NewStatusID
+columnName=NewStatusID
+# --field-end--
+# --field-start--
+fieldName=NewDepartmentID
+columnName=NewDepartmentID
+# --field-end--
+# --field-start--
+fieldName=TransferToPreviousDepartment
+columnName=TransferToPreviousDepartment
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TransferToDeptOfPrevActionID
+columnName=TransferToDeptOfPrevActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TransferToLocationOwnerDepartment
+columnName=TransferToLocationOwnerDepartment
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GuestServiceIssue
+columnName=GuestServiceIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequiresGuestCallback
+columnName=RequiresGuestCallback
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TransferToCreatorDepartment
+columnName=TransferToCreatorDepartment
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionWorkflows_IssueClasses
+tableName=ActionWorkflows_IssueClasses
+# --table-fields-start--
+# --field-start--
+fieldName=ActionWorkflows_IssueClassesID
+columnName=ActionWorkflows_IssueClassesID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionWorkflowID
+columnName=ActionWorkflowID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Causes
+tableName=Causes
+# --table-fields-start--
+# --field-start--
+fieldName=CauseID
+columnName=CauseID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CauseDesc
+columnName=CauseDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOrder
+columnName=DisplayOrder
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ConfigPDA
+tableName=ConfigPDA
+# --table-fields-start--
+# --field-start--
+fieldName=ConfigID
+columnName=ConfigID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SyncFrec
+columnName=SyncFrec
+# --field-end--
+# --field-start--
+fieldName=BackgSync
+columnName=BackgSync
+# --field-end--
+# --field-start--
+fieldName=TryConnect
+columnName=TryConnect
+# --field-end--
+# --field-start--
+fieldName=ShowAvailableMem
+columnName=ShowAvailableMem
+# --field-end--
+# --field-start--
+fieldName=WiFiSignal
+columnName=WiFiSignal
+# --field-end--
+# --field-start--
+fieldName=AdminPassword
+columnName=AdminPassword
+# --field-end--
+# --field-start--
+fieldName=AppCenterPassword
+columnName=AppCenterPassword
+# --field-end--
+# --field-start--
+fieldName=AppAutoUpdate
+columnName=AppAutoUpdate
+# --field-end--
+# --field-start--
+fieldName=ForceAppAutoUpdate
+columnName=ForceAppAutoUpdate
+# --field-end--
+# --field-start--
+fieldName=DBAutoUpdate
+columnName=DBAutoUpdate
+# --field-end--
+# --field-start--
+fieldName=UrlCabFileUser
+columnName=UrlCabFileUser
+# --field-end--
+# --field-start--
+fieldName=UrlCabPassword
+columnName=UrlCabPassword
+# --field-end--
+# --field-start--
+fieldName=DisplayOptionTab
+columnName=DisplayOptionTab
+# --field-end--
+# --field-start--
+fieldName=DisplayChangePassword
+columnName=DisplayChangePassword
+# --field-end--
+# --field-start--
+fieldName=DisplayMessages
+columnName=DisplayMessages
+# --field-end--
+# --field-start--
+fieldName=DisplayCheckForUpdate
+columnName=DisplayCheckForUpdate
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Decks
+tableName=Decks
+# --table-fields-start--
+# --field-start--
+fieldName=DeckID
+columnName=DeckID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeckNumber
+columnName=DeckNumber
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeckDesc
+columnName=DeckDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Departments
+tableName=Departments
+# --table-fields-start--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentDesc
+columnName=DepartmentDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeviceID
+columnName=DeviceID
+# --field-end--
+# --field-start--
+fieldName=AssigneeUserID
+columnName=AssigneeUserID
+# --field-end--
+# --field-start--
+fieldName=AssigneeAnyUser
+columnName=AssigneeAnyUser
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.FileAttachments
+tableName=FileAttachments
+# --table-fields-start--
+# --field-start--
+fieldName=FileAttachmentID
+columnName=FileAttachmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueTrackID
+columnName=IssueTrackID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileNme
+columnName=FileNme
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileAttachment
+columnName=FileAttachment
+dataPersister=BYTE_ARRAY
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileExtension
+columnName=FileExtension
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileSize
+columnName=FileSize
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UID
+columnName=UID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=IssueTrackGUI
+columnName=IssueTrackGUI
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.FireZones
+tableName=FireZones
+# --table-fields-start--
+# --field-start--
+fieldName=FireZoneID
+columnName=FireZoneID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FireZoneName
+columnName=FireZoneName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.GeneralGroups_Departments
+tableName=GeneralGroups_Departments
+# --table-fields-start--
+# --field-start--
+fieldName=GeneralGroups_DepartmentsID
+columnName=GeneralGroups_DepartmentsID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GeneralGroupID
+columnName=GeneralGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.GeneralGroups_Users
+tableName=GeneralGroups_Users
+# --table-fields-start--
+# --field-start--
+fieldName=GeneralGroups_UsersID
+columnName=GeneralGroups_UsersID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GeneralGroupID
+columnName=GeneralGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.IssueClasses
+tableName=IssueClasses
+# --table-fields-start--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassCode
+columnName=IssueClassCode
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassDesc
+columnName=IssueClassDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IsDefault
+columnName=IsDefault
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.IssueGroups
+tableName=IssueGroups
+# --table-fields-start--
+# --field-start--
+fieldName=IssueGroupID
+columnName=IssueGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueGroupDesc
+columnName=IssueGroupDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SendPreAlert
+columnName=SendPreAlert
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SendAlert
+columnName=SendAlert
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=AlertForGuestServiceAndPublic
+columnName=AlertForGuestServiceAndPublic
+# --field-end--
+# --field-start--
+fieldName=AlertForGuestServiceAndCrew
+columnName=AlertForGuestServiceAndCrew
+# --field-end--
+# --field-start--
+fieldName=AlertForNonGuestServiceAndPublic
+columnName=AlertForNonGuestServiceAndPublic
+# --field-end--
+# --field-start--
+fieldName=AlertForNonGuestServiceAndCrew
+columnName=AlertForNonGuestServiceAndCrew
+# --field-end--
+# --field-start--
+fieldName=DisplayOnMonitor
+columnName=DisplayOnMonitor
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.IssueTypes
+tableName=IssueTypes
+# --table-fields-start--
+# --field-start--
+fieldName=IssueTypeID
+columnName=IssueTypeID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueTypeDesc
+columnName=IssueTypeDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PriorityID
+columnName=PriorityID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+# --field-end--
+# --field-start--
+fieldName=IssueGroupID
+columnName=IssueGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueCategoryID
+columnName=IssueCategoryID
+# --field-end--
+# --field-start--
+fieldName=Level1DepartmentID
+columnName=Level1DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Level2DepartmentID
+columnName=Level2DepartmentID
+# --field-end--
+# --field-start--
+fieldName=AssigneeUserID
+columnName=AssigneeUserID
+# --field-end--
+# --field-start--
+fieldName=AssigneeAnyUser
+columnName=AssigneeAnyUser
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GuestServiceIssue
+columnName=GuestServiceIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequiresGuestCallback
+columnName=RequiresGuestCallback
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequiresLocationOwnerAction
+columnName=RequiresLocationOwnerAction
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IVRCode
+columnName=IVRCode
+# --field-end--
+# --field-start--
+fieldName=SendPreAlert
+columnName=SendPreAlert
+# --field-end--
+# --field-start--
+fieldName=SendAlert
+columnName=SendAlert
+# --field-end--
+# --field-start--
+fieldName=AlertForGuestServiceAndPublic
+columnName=AlertForGuestServiceAndPublic
+# --field-end--
+# --field-start--
+fieldName=AlertForGuestServiceAndCrew
+columnName=AlertForGuestServiceAndCrew
+# --field-end--
+# --field-start--
+fieldName=AlertForNonGuestServiceAndPublic
+columnName=AlertForNonGuestServiceAndPublic
+# --field-end--
+# --field-start--
+fieldName=AlertForNonGuestServiceAndCrew
+columnName=AlertForNonGuestServiceAndCrew
+# --field-end--
+# --field-start--
+fieldName=DisplayOnMonitor
+columnName=DisplayOnMonitor
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.LocationGroups
+tableName=LocationGroups
+# --table-fields-start--
+# --field-start--
+fieldName=LocationGroupID
+columnName=LocationGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LocationGroupDesc
+columnName=LocationGroupDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PassengerCabin
+columnName=PassengerCabin
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ShowOnCreate
+columnName=ShowOnCreate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnDevice
+columnName=DisplayOnDevice
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=HKSection
+columnName=HKSection
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Locations
+tableName=Locations
+# --table-fields-start--
+# --field-start--
+fieldName=LocationID
+columnName=LocationID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LocationDesc
+columnName=LocationDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PublicArea
+columnName=PublicArea
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LocationOwnerDepartmentID
+columnName=LocationOwnerDepartmentID
+# --field-end--
+# --field-start--
+fieldName=IVRCode
+columnName=IVRCode
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Locations_LocationGroups
+tableName=Locations_LocationGroups
+# --table-fields-start--
+# --field-start--
+fieldName=Locations_LocationGroupsID
+columnName=Locations_LocationGroupsID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LocationID
+columnName=LocationID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LocationGroupID
+columnName=LocationGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.MessageAddressee
+tableName=MessageAddressee
+# --table-fields-start--
+# --field-start--
+fieldName=MessageAddresseeID
+columnName=MessageAddresseeID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=MessageID
+columnName=MessageID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeviceID
+columnName=DeviceID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Read
+columnName=Read
+# --field-end--
+# --field-start--
+fieldName=DateTimeRead
+columnName=DateTimeRead
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=MessageType
+columnName=MessageType
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Messages
+tableName=Messages
+# --table-fields-start--
+# --field-start--
+fieldName=MessageID
+columnName=MessageID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Subject
+columnName=Subject
+# --field-end--
+# --field-start--
+fieldName=Message
+columnName=Message
+# --field-end--
+# --field-start--
+fieldName=CreatedDate
+columnName=CreatedDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=Priority
+columnName=Priority
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.MobileDevice
+tableName=MobileDevice
+# --table-fields-start--
+# --field-start--
+fieldName=DeviceID
+columnName=DeviceID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=AppVersion
+columnName=AppVersion
+# --field-end--
+# --field-start--
+fieldName=DBVersion
+columnName=DBVersion
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+# --field-end--
+# --field-start--
+fieldName=Description
+columnName=Description
+# --field-end--
+# --field-start--
+fieldName=LastSyncDate
+columnName=LastSyncDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LastSyncType
+columnName=LastSyncType
+# --field-end--
+# --field-start--
+fieldName=LastSyncStatus
+columnName=LastSyncStatus
+# --field-end--
+# --field-start--
+fieldName=ReadOnly
+columnName=ReadOnly
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Locked
+columnName=Locked
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.PassengerInfo
+tableName=PassengerInfo
+# --table-fields-start--
+# --field-start--
+fieldName=PassengerInfoID
+columnName=PassengerInfoID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Greeting
+columnName=Greeting
+# --field-end--
+# --field-start--
+fieldName=FirstName
+columnName=FirstName
+# --field-end--
+# --field-start--
+fieldName=LastName
+columnName=LastName
+# --field-end--
+# --field-start--
+fieldName=BookingID
+columnName=BookingID
+# --field-end--
+# --field-start--
+fieldName=SequenceNumber
+columnName=SequenceNumber
+# --field-end--
+# --field-start--
+fieldName=PassengerID
+columnName=PassengerID
+# --field-end--
+# --field-start--
+fieldName=GroupID
+columnName=GroupID
+# --field-end--
+# --field-start--
+fieldName=EmbarkationDate
+columnName=EmbarkationDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=DebarkationDate
+columnName=DebarkationDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=VoyageID
+columnName=VoyageID
+# --field-end--
+# --field-start--
+fieldName=LoyaltyTier
+columnName=LoyaltyTier
+# --field-end--
+# --field-start--
+fieldName=RepeatCruiser
+columnName=RepeatCruiser
+# --field-end--
+# --field-start--
+fieldName=Cabin
+columnName=Cabin
+# --field-end--
+# --field-start--
+fieldName=Language
+columnName=Language
+# --field-end--
+# --field-start--
+fieldName=FolioID
+columnName=FolioID
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UniqueGuestID
+columnName=UniqueGuestID
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.PermissionGroups_Departments
+tableName=PermissionGroups_Departments
+# --table-fields-start--
+# --field-start--
+fieldName=PermissionGroups_DepartmentsID
+columnName=PermissionGroups_DepartmentsID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PermissionGroupID
+columnName=PermissionGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.PermissionGroups_Users
+tableName=PermissionGroups_Users
+# --table-fields-start--
+# --field-start--
+fieldName=PermissionGroups_UsersID
+columnName=PermissionGroups_UsersID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PermissionGroupID
+columnName=PermissionGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Permissions
+tableName=Permissions
+# --table-fields-start--
+# --field-start--
+fieldName=PermissionID
+columnName=PermissionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PermissionGroupID
+columnName=PermissionGroupID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanCreateIssue
+columnName=CanCreateIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanTransferToPrevDept
+columnName=CanTransferToPrevDept
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanTransferToCreatorDept
+columnName=CanTransferToCreatorDept
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanRequestInfoFromPrevDept
+columnName=CanRequestInfoFromPrevDept
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanRequestInfoFromCreatorDept
+columnName=CanRequestInfoFromCreatorDept
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Permissions_Departments
+tableName=Permissions_Departments
+# --table-fields-start--
+# --field-start--
+fieldName=Permissions_DepartmentsID
+columnName=Permissions_DepartmentsID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PermissionID
+columnName=PermissionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanView
+columnName=CanView
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanManage
+columnName=CanManage
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanTransfer
+columnName=CanTransfer
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanRequestInfo
+columnName=CanRequestInfo
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Priorities
+tableName=Priorities
+# --table-fields-start--
+# --field-start--
+fieldName=PriorityID
+columnName=PriorityID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PriorityDesc
+columnName=PriorityDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PriorityImage
+columnName=PriorityImage
+# --field-end--
+# --field-start--
+fieldName=PriorityLevel
+columnName=PriorityLevel
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Statuses
+tableName=Statuses
+# --table-fields-start--
+# --field-start--
+fieldName=StatusID
+columnName=StatusID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StatusCode
+columnName=StatusCode
+# --field-end--
+# --field-start--
+fieldName=StatusDesc
+columnName=StatusDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOrder
+columnName=DisplayOrder
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnlyIfCurrent
+columnName=DisplayOnlyIfCurrent
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnlyIfGuestServiceIssue
+columnName=DisplayOnlyIfGuestServiceIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnlyIfAssigned
+columnName=DisplayOnlyIfAssigned
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnlyIfBillable
+columnName=DisplayOnlyIfBillable
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Alert
+columnName=Alert
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnMonitorForPreAlert
+columnName=DisplayOnMonitorForPreAlert
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOnMonitorForAlert
+columnName=DisplayOnMonitorForAlert
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Closed
+columnName=Closed
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Delayed
+columnName=Delayed
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.SysParms
+tableName=SysParms
+# --table-fields-start--
+# --field-start--
+fieldName=SysParmsID
+columnName=SysParmsID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteName
+columnName=SiteName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteInitials
+columnName=SiteInitials
+# --field-end--
+# --field-start--
+fieldName=SiteURL
+columnName=SiteURL
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=EmailFrom
+columnName=EmailFrom
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=EmailSubject
+columnName=EmailSubject
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Shipboard
+columnName=Shipboard
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=WorkflowID
+columnName=WorkflowID
+# --field-end--
+# --field-start--
+fieldName=AssignUser
+columnName=AssignUser
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DefaultSummary
+columnName=DefaultSummary
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=AllowFileAttachments
+columnName=AllowFileAttachments
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileAttachmentsDir
+columnName=FileAttachmentsDir
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileAttachmentsMaxBytesPerAction
+columnName=FileAttachmentsMaxBytesPerAction
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FileAttachmentsMaxBytesPerIssue
+columnName=FileAttachmentsMaxBytesPerIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DateFormatGeneral
+columnName=DateFormatGeneral
+# --field-end--
+# --field-start--
+fieldName=DateFormatMinutes
+columnName=DateFormatMinutes
+# --field-end--
+# --field-start--
+fieldName=DateFormatSeconds
+columnName=DateFormatSeconds
+# --field-end--
+# --field-start--
+fieldName=DateFormatMilliSeconds
+columnName=DateFormatMilliSeconds
+# --field-end--
+# --field-start--
+fieldName=DateSeparator
+columnName=DateSeparator
+# --field-end--
+# --field-start--
+fieldName=RepeatedIssueTimeFrame
+columnName=RepeatedIssueTimeFrame
+# --field-end--
+# --field-start--
+fieldName=ReportJobApp
+columnName=ReportJobApp
+# --field-end--
+# --field-start--
+fieldName=ReportJobLoadDir
+columnName=ReportJobLoadDir
+# --field-end--
+# --field-start--
+fieldName=SendIssueApp
+columnName=SendIssueApp
+# --field-end--
+# --field-start--
+fieldName=GuestServiceEnabled
+columnName=GuestServiceEnabled
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequireGuestName
+columnName=RequireGuestName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SearchGuestNameInPMS
+columnName=SearchGuestNameInPMS
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=HandheldEnabled
+columnName=HandheldEnabled
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayHoursWorked
+columnName=DisplayHoursWorked
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayTotalTimeForIssue
+columnName=DisplayTotalTimeForIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DashboardAutoRefresh
+columnName=DashboardAutoRefresh
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ReportHourDateFormat
+columnName=ReportHourDateFormat
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PartsQueryMaxRecords
+columnName=PartsQueryMaxRecords
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=RequireCause
+columnName=RequireCause
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CMDShellLogin
+columnName=CMDShellLogin
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=WSBesUrl
+columnName=WSBesUrl
+# --field-end--
+# --field-start--
+fieldName=WSNotificationTicket
+columnName=WSNotificationTicket
+# --field-end--
+# --field-start--
+fieldName=ImportFromXmlApp
+columnName=ImportFromXmlApp
+# --field-end--
+# --field-start--
+fieldName=UsesHESS
+columnName=UsesHESS
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PONumberLabel
+columnName=PONumberLabel
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayCheckSpelling
+columnName=DisplayCheckSpelling
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=AllowDepartmentSelectionInCreateIssue
+columnName=AllowDepartmentSelectionInCreateIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayEnteredByOnCreate
+columnName=DisplayEnteredByOnCreate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayReportByCrewOnCreate
+columnName=DisplayReportByCrewOnCreate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PriorityReadOnlyOnCreate
+columnName=PriorityReadOnlyOnCreate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TrackIssuesUI_DisplayIssueClass
+columnName=TrackIssuesUI_DisplayIssueClass
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TrackIssuesUI_DisplayIssueType
+columnName=TrackIssuesUI_DisplayIssueType
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TrackIssuesUI_DisplaySummary
+columnName=TrackIssuesUI_DisplaySummary
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=SummaryReadOnlyOnCreate
+columnName=SummaryReadOnlyOnCreate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateIssueUI_LocationHistoryDays
+columnName=CreateIssueUI_LocationHistoryDays
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=VoyagesToList
+columnName=VoyagesToList
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ReportIGConfigurationFile
+columnName=ReportIGConfigurationFile
+# --field-end--
+# --field-start--
+fieldName=EnhancedModifyIssue
+columnName=EnhancedModifyIssue
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PasswordComplexityEnabled
+columnName=PasswordComplexityEnabled
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=InspectorEnabled
+columnName=InspectorEnabled
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=EnableSqlAgent
+columnName=EnableSqlAgent
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Transverses
+tableName=Transverses
+# --table-fields-start--
+# --field-start--
+fieldName=TransverseID
+columnName=TransverseID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=TransverseName
+columnName=TransverseName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.UserDepartments
+tableName=UserDepartments
+# --table-fields-start--
+# --field-start--
+fieldName=UserDepartmentID
+columnName=UserDepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Users
+tableName=Users
+# --table-fields-start--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=aspnet_UserID
+columnName=aspnet_UserID
+# --field-end--
+# --field-start--
+fieldName=UserDesc
+columnName=UserDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Email
+columnName=Email
+# --field-end--
+# --field-start--
+fieldName=SMSEmail
+columnName=SMSEmail
+# --field-end--
+# --field-start--
+fieldName=BESUsername
+columnName=BESUsername
+# --field-end--
+# --field-start--
+fieldName=CanSendAsSelf
+columnName=CanSendAsSelf
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=GroupLoginID
+columnName=GroupLoginID
+# --field-end--
+# --field-start--
+fieldName=IVRCode
+columnName=IVRCode
+# --field-end--
+# --field-start--
+fieldName=NonWebUser
+columnName=NonWebUser
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=HasMobileDevice
+columnName=HasMobileDevice
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StartPageID
+columnName=StartPageID
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=OfficeNumber
+columnName=OfficeNumber
+# --field-end--
+# --field-start--
+fieldName=Extension
+columnName=Extension
+# --field-end--
+# --field-start--
+fieldName=Pager
+columnName=Pager
+# --field-end--
+# --field-start--
+fieldName=MobileNumber
+columnName=MobileNumber
+# --field-end--
+# --field-start--
+fieldName=HasInspector
+columnName=HasInspector
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CanInspect
+columnName=CanInspect
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PasswordLastChangeDate
+columnName=PasswordLastChangeDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LocationGroupID
+columnName=LocationGroupID
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.UsersMobile
+tableName=UsersMobile
+# --table-fields-start--
+# --field-start--
+fieldName=UserID
+columnName=UserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserName
+columnName=UserName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Password
+columnName=Password
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=aspnetUserPasswordReset
+columnName=aspnetUserPasswordReset
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.WorkflowAssociations
+tableName=WorkflowAssociations
+# --table-fields-start--
+# --field-start--
+fieldName=AssociationID
+columnName=AssociationID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=WorkflowID
+columnName=WorkflowID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionWorkflowID
+columnName=ActionWorkflowID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Zones
+tableName=Zones
+# --table-fields-start--
+# --field-start--
+fieldName=ZoneID
+columnName=ZoneID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ZoneName
+columnName=ZoneName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Panels
+tableName=Panels
+# --table-fields-start--
+# --field-start--
+fieldName=PanelID
+columnName=PanelID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PanelName
+columnName=PanelName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ActionPanels
+tableName=ActionPanels
+# --table-fields-start--
+# --field-start--
+fieldName=ActionPanelID
+columnName=ActionPanelID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ActionID
+columnName=ActionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PanelID
+columnName=PanelID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.DepartmentPositions
+tableName=DepartmentPositions
+# --table-fields-start--
+# --field-start--
+fieldName=PositionID
+columnName=PositionID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DepartmentID
+columnName=DepartmentID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=PositionName
+columnName=PositionName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.AmosComponentType
+tableName=AmosComponentType
+# --table-fields-start--
+# --field-start--
+fieldName=CompTypeID
+columnName=CompTypeID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ComponentClassID
+columnName=ComponentClassID
+# --field-end--
+# --field-start--
+fieldName=ParentCompTypeID
+columnName=ParentCompTypeID
+# --field-end--
+# --field-start--
+fieldName=PrimaryVendorID
+columnName=PrimaryVendorID
+# --field-end--
+# --field-start--
+fieldName=CompTypeNo
+columnName=CompTypeNo
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CompName
+columnName=CompName
+# --field-end--
+# --field-start--
+fieldName=CompType
+columnName=CompType
+# --field-end--
+# --field-start--
+fieldName=MakerID
+columnName=MakerID
+# --field-end--
+# --field-start--
+fieldName=LayoutID
+columnName=LayoutID
+# --field-end--
+# --field-start--
+fieldName=Notes
+columnName=Notes
+# --field-end--
+# --field-start--
+fieldName=DeptID
+columnName=DeptID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ExportMarker
+columnName=ExportMarker
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdated
+columnName=LastUpdated
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserDefMarpol
+columnName=UserDefMarpol
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UserDefImono
+columnName=UserDefImono
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.AmosComponentUnit
+tableName=AmosComponentUnit
+# --table-fields-start--
+# --field-start--
+fieldName=CompID
+columnName=CompID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CompTypeID
+columnName=CompTypeID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CompNo
+columnName=CompNo
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SerialNo
+columnName=SerialNo
+# --field-end--
+# --field-start--
+fieldName=StatusID
+columnName=StatusID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeptID
+columnName=DeptID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=FuncNo
+columnName=FuncNo
+# --field-end--
+# --field-start--
+fieldName=FuncDescr
+columnName=FuncDescr
+# --field-end--
+# --field-start--
+fieldName=FunctionID
+columnName=FunctionID
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.ComplaintSeverities
+tableName=ComplaintSeverities
+# --table-fields-start--
+# --field-start--
+fieldName=ComplaintSeverityID
+columnName=ComplaintSeverityID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ComplaintSeverityName
+columnName=ComplaintSeverityName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ComplaintSeverityDesc
+columnName=ComplaintSeverityDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IsDefault
+columnName=IsDefault
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DisplayOrder
+columnName=DisplayOrder
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.Defects
+tableName=Defects
+# --table-fields-start--
+# --field-start--
+fieldName=DefectID
+columnName=DefectID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DefectName
+columnName=DefectName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IVRCode
+columnName=IVRCode
+# --field-end--
+# --field-start--
+fieldName=Active
+columnName=Active
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=LastUpdateUserID
+columnName=LastUpdateUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ToDelete
+columnName=ToDelete
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.AmosIssuesComponentUnit
+tableName=AmosIssuesComponentUnit
+# --table-fields-start--
+# --field-start--
+fieldName=IssueID
+columnName=IssueID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=AmosCompID
+columnName=AmosCompID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SiteID
+columnName=SiteID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreationDate
+columnName=CreationDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=UpdateBySQLUser
+columnName=UpdateBySQLUser
+# --field-end--
+# --field-start--
+fieldName=UpdateDateUTC
+columnName=UpdateDateUTC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=ITSMobile.MobileIssues
+tableName=MobileIssues
+# --table-fields-start--
+# --field-start--
+fieldName=IssueID
+columnName=IssueID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueTypeID
+columnName=IssueTypeID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=IssueTypeDesc
+columnName=IssueTypeDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DefectName
+columnName=DefectName
+# --field-end--
+# --field-start--
+fieldName=LocationDesc
+columnName=LocationDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=DeckID
+columnName=DeckID
+# --field-end--
+# --field-start--
+fieldName=DeckNumber
+columnName=DeckNumber
+# --field-end--
+# --field-start--
+fieldName=DeckDesc
+columnName=DeckDesc
+# --field-end--
+# --field-start--
+fieldName=TransverseID
+columnName=TransverseID
+# --field-end--
+# --field-start--
+fieldName=TransverseName
+columnName=TransverseName
+# --field-end--
+# --field-start--
+fieldName=ZoneID
+columnName=ZoneID
+# --field-end--
+# --field-start--
+fieldName=ZoneName
+columnName=ZoneName
+# --field-end--
+# --field-start--
+fieldName=FireZoneID
+columnName=FireZoneID
+# --field-end--
+# --field-start--
+fieldName=FireZoneName
+columnName=FireZoneName
+# --field-end--
+# --field-start--
+fieldName=PreviousDepartmentID
+columnName=PreviousDepartmentID
+# --field-end--
+# --field-start--
+fieldName=PreviousDepartmentDesc
+columnName=PreviousDepartmentDesc
+# --field-end--
+# --field-start--
+fieldName=CurrentDepartmentID
+columnName=CurrentDepartmentID
+# --field-end--
+# --field-start--
+fieldName=CurrentDepartmentDesc
+columnName=CurrentDepartmentDesc
+# --field-end--
+# --field-start--
+fieldName=LocationOwnerDepartmentID
+columnName=LocationOwnerDepartmentID
+# --field-end--
+# --field-start--
+fieldName=LocationOwnerDepartmentDesc
+columnName=LocationOwnerDepartmentDesc
+# --field-end--
+# --field-start--
+fieldName=StatusID
+columnName=StatusID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=StatusDesc
+columnName=StatusDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=ReportedByCrew
+columnName=ReportedByCrew
+# --field-end--
+# --field-start--
+fieldName=ReportBy
+columnName=ReportBy
+# --field-end--
+# --field-start--
+fieldName=ReportByDepartmentDesc
+columnName=ReportByDepartmentDesc
+# --field-end--
+# --field-start--
+fieldName=ReportByPositionName
+columnName=ReportByPositionName
+# --field-end--
+# --field-start--
+fieldName=OnBehalfOfUserDesc
+columnName=OnBehalfOfUserDesc
+# --field-end--
+# --field-start--
+fieldName=DueDate
+columnName=DueDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=GuestFirstName
+columnName=GuestFirstName
+# --field-end--
+# --field-start--
+fieldName=GuestLastName
+columnName=GuestLastName
+# --field-end--
+# --field-start--
+fieldName=PassengerInfoID
+columnName=PassengerInfoID
+# --field-end--
+# --field-start--
+fieldName=GuestServiceIssue
+columnName=GuestServiceIssue
+# --field-end--
+# --field-start--
+fieldName=RequiresGuestCallback
+columnName=RequiresGuestCallback
+# --field-end--
+# --field-start--
+fieldName=DateFirstExperienced
+columnName=DateFirstExperienced
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=SeverityID
+columnName=SeverityID
+# --field-end--
+# --field-start--
+fieldName=SeverityName
+columnName=SeverityName
+# --field-end--
+# --field-start--
+fieldName=Summary
+columnName=Summary
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=SourceDesc
+columnName=SourceDesc
+# --field-end--
+# --field-start--
+fieldName=PAR
+columnName=PAR
+# --field-end--
+# --field-start--
+fieldName=ConcurrencyID
+columnName=ConcurrencyID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateDate
+columnName=CreateDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserID
+columnName=CreateByUserID
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByUserDesc
+columnName=CreateByUserDesc
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CreateByDepartmentID
+columnName=CreateByDepartmentID
+# --field-end--
+# --field-start--
+fieldName=CreateByDepartmentDesc
+columnName=CreateByDepartmentDesc
+# --field-end--
+# --field-start--
+fieldName=PriorityID
+columnName=PriorityID
+# --field-end--
+# --field-start--
+fieldName=PriorityDesc
+columnName=PriorityDesc
+# --field-end--
+# --field-start--
+fieldName=DeviceFavorite
+columnName=DeviceFavorite
+# --field-end--
+# --field-start--
+fieldName=OpenedOnDevice
+columnName=OpenedOnDevice
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=CountAttach
+columnName=CountAttach
+# --field-end--
+# --field-start--
+fieldName=IssueClassID
+columnName=IssueClassID
+# --field-end--
+# --field-start--
+fieldName=LocationID
+columnName=LocationID
+# --field-end--
+# --field-start--
+fieldName=IssueClassCode
+columnName=IssueClassCode
+# --field-end--
+# --field-start--
+fieldName=IssueClassDesc
+columnName=IssueClassDesc
+# --field-end--
+# --field-start--
+fieldName=AmosFuncDescr
+columnName=AmosFuncDescr
+# --field-end--
+# --field-start--
+fieldName=AmosSerialNo
+columnName=AmosSerialNo
+# --field-end--
+# --field-start--
+fieldName=AssigneeUserID
+columnName=AssigneeUserID
+# --field-end--
+# --field-start--
+fieldName=Notes
+columnName=Notes
+# --field-end--
+# --field-start--
+fieldName=AlertDesc
+columnName=AlertDesc
+# --field-end--
+# --field-start--
+fieldName=LastUpdateDate
+columnName=LastUpdateDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=gUID
+id=true
+# --field-end--
+# --field-start--
+fieldName=IsTombstone
+columnName=IsTombstone
+# --field-end--
+# --field-start--
+fieldName=ID
+columnName=_MetadataID
+# --field-end--
+# --field-start--
+fieldName=IsDirty
+columnName=IsDirty
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

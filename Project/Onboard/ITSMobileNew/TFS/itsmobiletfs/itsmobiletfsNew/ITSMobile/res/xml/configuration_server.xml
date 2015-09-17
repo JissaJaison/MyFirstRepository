@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="http://192.168.125.181/ITSMobileSync/ITSMobileSyncService.svc"
+        android:key="urlServer"
+        android:summary="@string/edittext1_summary"
+        android:title="@string/url_server_title" >
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:defaultValue="its"
+        android:key="application_password"
+        android:summary="Set password"
+        android:inputType="textPassword"
+        android:title="Set password" />
+
+</PreferenceScreen>

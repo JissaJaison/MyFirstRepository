@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gmail_menu_background_unselected"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgUserPic"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/tvUserPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imgUserPic"
+        android:paddingLeft="10dp"
+        android:textColor="@color/gmail_text_color"
+        android:text="1st eletric"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvUserDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUserPosition"
+        android:layout_toRightOf="@id/imgUserPic"
+        android:paddingLeft="10dp"
+        android:textColor="@color/gmail_text_color"
+        android:text="Electician department"
+        android:textSize="17sp" />
+
+</RelativeLayout>

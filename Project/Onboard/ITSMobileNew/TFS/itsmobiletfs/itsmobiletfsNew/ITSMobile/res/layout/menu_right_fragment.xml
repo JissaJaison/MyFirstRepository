@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/gmail_menu_background_unselected"
+    android:choiceMode="none"
+    android:divider="@color/list_divider"
+    android:dividerHeight="1dp" />

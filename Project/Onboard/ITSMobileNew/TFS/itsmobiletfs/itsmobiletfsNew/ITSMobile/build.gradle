@@ -1,0 +1,148 @@
+buildscript {
+//    repositories {
+//        maven { url 'https://crashlytics.com/downloads/maven' }
+//    }
+//
+//    dependencies {
+//        classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.2.0'
+//    }
+}
+apply plugin: 'com.android.application'
+//apply plugin: 'crashlytics'
+
+repositories {
+//    maven { url 'https://crashlytics.com/downloads/maven' }
+}
+
+
+dependencies {
+    compile project(':syncLib')
+    compile 'com.android.support:support-v13:20.+'
+//    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:library:+'
+//    compile files('libs/ormlite-android-4.45.jar')
+//    compile files('libs/ormlite-core-4.45.jar')
+//    compile files('libs/synclib.jar')
+    compile files('libs/universal-image-loader-1.9.1.jar')
+//    compile 'com.crashlytics.android:crashlytics:1.+'
+}
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+    defaultConfig {
+
+        minSdkVersion 15
+        targetSdkVersion 20
+        versionCode 101325
+        versionName '1.0.13.32'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    if(project.hasProperty("issue.properties")
+            && file(project.property("issue.properties")).exists()) {
+        Properties props = new Properties()
+        props.load(new FileInputStream(file(project.property("issue.properties"))))
+
+        signingConfigs {
+            release {
+                storeFile file(props['keystore'])
+                storePassword props['keystore.password']
+                keyAlias props['keyAlias']
+                keyPassword props['keyPassword']
+            }
+        }
+
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+                debuggable true
+                jniDebugBuild false
+                renderscriptDebugBuild false
+                zipAlign true
+                signingConfig signingConfigs.release
+
+            }
+            releaseA {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+                debuggable true
+                applicationIdSuffix ".a"
+                versionNameSuffix "-a"
+                jniDebugBuild false
+                renderscriptDebugBuild false
+                zipAlign true
+                signingConfig signingConfigs.release
+
+            }
+            releaseB {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+                debuggable true
+                applicationIdSuffix ".b"
+                versionNameSuffix "-b"
+                jniDebugBuild false
+                renderscriptDebugBuild false
+                zipAlign true
+                signingConfig signingConfigs.release
+
+            }
+            releaseRC {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+                debuggable true
+                jniDebugBuild false
+                applicationIdSuffix ".rc"
+                versionNameSuffix "-rc"
+                renderscriptDebugBuild false
+                zipAlign true
+                signingConfig signingConfigs.release
+
+            }
+            debug {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+                debuggable true
+                applicationIdSuffix ".debug"
+                versionNameSuffix "-debug"
+                jniDebugBuild true
+                renderscriptDebugBuild true
+                zipAlign true
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+}
+
+

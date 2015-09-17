@@ -1,0 +1,2 @@
+include ':ITSMobile'
+include ':syncLib'
